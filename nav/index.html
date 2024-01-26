@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="color-scheme" content="light dark">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>炳的导航</title>
+    <link rel="icon" href="https://wcbing.top/favicon.ico" />
+    <script>
+        function adjust() {
+            window.setInterval("adjustIframe()", 500);
+        }
+        function adjustIframe() {
+            var ifm = document.getElementById("my_iframe");
+            ifm.height = document.documentElement.clientHeight - 21;
+            // ifm.width=document.documentElement.clientWidth;
+        }
+    </script>
+</head>
+
+<body>
+    <iframe src="https://xydh.fun/cbing" id="my_iframe" onload="adjust();" frameborder="0" width=100% height="800"
+        scrolling="auto"></iframe>
+</body>
+</html>
