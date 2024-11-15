@@ -4,9 +4,11 @@
 }
 
 .grid a {
+    font-size: small;
     color: #0a71e7;
     text-decoration: none;
     /* height: 50px; */
+    min-height: 50px;
     margin: 4px;
     border: 1px solid #dedede;
     border-radius: 8px;
