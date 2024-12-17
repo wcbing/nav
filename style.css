@@ -1,20 +1,20 @@
-.md-typeset .grid {
-    display: grid;
+[dir="ltr"] .md-typeset ul {
+    margin: 0;
+}
+[dir="ltr"] .md-typeset ul li {
+    margin: 0;
+    display: inline-grid;
     grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
 }
 
-.grid a {
+.md-typeset li a {
     font-size: small;
-    color: #0a71e7;
+    color: unset;
     text-decoration: none;
-    /* height: 50px; */
     min-height: 50px;
     margin: 4px;
+    padding: 4px;
     border: 1px solid #dedede;
     border-radius: 8px;
-    display: flex;
-    align-items: center;
     /* justify-content: center; */
-    padding-left: 5px;
-    padding-right: 5px;
 }
