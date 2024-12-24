@@ -4,9 +4,8 @@
 [dir="ltr"] .md-typeset ul li {
     margin: 0;
     display: inline-grid;
-    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(148px, 1fr));
 }
-
 .md-typeset li a {
     font-size: small;
     color: unset;
@@ -14,7 +13,8 @@
     min-height: 50px;
     margin: 4px;
     padding: 4px;
-    border: 1px solid #dedede;
     border-radius: 8px;
+    border: 1px solid #ddd;
+    box-shadow: 1px 2px 3px #ddd;
     /* justify-content: center; */
 }
