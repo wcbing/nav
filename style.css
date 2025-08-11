@@ -1,23 +1,25 @@
-[dir="ltr"] .md-typeset ul {
+.md-grid {
+    max-width: unset;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+.md-content__inner {
     margin: 0;
 }
+[dir="ltr"] .md-typeset ul {
+    margin-left: 0px;
+}
 [dir="ltr"] .md-typeset ul li {
-    margin: 0;
+    margin-left: 0;
     display: inline-grid;
+    border: 1px solid #ddd;
+    border-radius: 0.5rem;
+    box-shadow: 1px 2px 3px #ddd;
     grid-template-columns: repeat(auto-fit, minmax(148px, 1fr));
 }
 .md-typeset li a {
     font-size: small;
     color: unset;
-    text-decoration: none;
-    min-height: 50px;
-    margin: 4px;
     padding: 4px;
-    border-radius: 8px;
-    border: 1px solid #ddd;
-    box-shadow: 1px 2px 3px #ddd;
-    /* justify-content: center; */
-}
-.md-grid {
-    max-width: unset;
+    min-height: 50px;
 }
